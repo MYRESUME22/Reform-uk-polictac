@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fate for Prime Minister | REFORM UK</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #fff;
+            color: #333;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        h1, h2 {
+            color: #333;
+            text-align: center;
+        }
+
+        p {
+            font-size: 1.2em;
+            line-height: 1.6;
+            text-align: center;
+        }
+
+        /* Sidebar */
+        .sidebar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 200px;
+            height: 100%;
+            background-color: #ffcc00;
+            padding-top: 20px;
+        }
+
+        .sidebar ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .sidebar ul li {
+            margin: 20px 0;
+            text-align: center;
+        }
+
+        .sidebar ul li a {
+            color: #333;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 18px;
+            display: block;
+            padding: 10px;
+            transition: background 0.3s ease;
+        }
+
+        .sidebar ul li a:hover {
+            background-color: #fff;
+            color: #333;
+        }
+
+        /* Main Content */
+        .main-content {
+            margin-left: 220px;
+            padding: 20px;
+        }
+
+        /* Hero Section */
+        .hero {
+            background-color: #ffcc00;
+            color: #fff;
+            padding: 100px 20px;
+            text-align: center;
+            animation: fadeIn 1.5s ease-in-out;
+        }
+
+        .hero h1 {
+            font-size: 3em;
+            margin-bottom: 20px;
+        }
+
+        .hero p {
+            font-size: 1.5em;
+            margin-bottom: 40px;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 1.2em;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background 0.3s ease;
+        }
+
+        .btn-primary {
+            background-color: #fff;
+            color: #333;
+            border: 2px solid #fff;
+        }
+
+        .btn-primary:hover {
+            background-color: #333;
+            color: #fff;
+        }
+
+        .btn-secondary {
+            background-color: #333;
+            color: #fff;
+            border: 2px solid #333;
+        }
+
+        .btn-secondary:hover {
+            background-color: #ffcc00;
+            color: #333;
+        }
+
+        /* Section Styles */
+        .section {
+            padding: 100px 20px;
+            text-align: center;
+            transition: all 0.5s ease-in-out;
+        }
+
+        .section:nth-child(even) {
+            background-color: #f4f4f4;
+        }
+
+        .features {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 40px;
+        }
+
+        .feature-box {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            padding: 20px;
+            width: 30%;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .feature-box h3 {
+            margin-bottom: 15px;
+            color: #ffcc00;
+        }
+
+        /* Footer */
+        .footer {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        /* Animations */
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Sidebar Navigation -->
+    <nav class="sidebar">
+        <ul>
+            <li><a href="#about">About Fate</a></li>
+            <li><a href="#economy">Economy</a></li>
+            <li><a href="#public-services">Public Services</a></li>
+            <li><a href="#security">National Security</a></li>
+            <li><a href="#environment">Environment</a></li>
+            <li><a href="#get-involved">Get Involved</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="main-content">
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="container">
+                <h1>Fate for Prime Minister</h1>
+                <p>A New Era for the United Kingdom</p>
+                <a href="#about" class="btn btn-primary">Learn More</a>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="section about">
+            <div class="container">
+                <h2>Welcome to the Future</h2>
+                <p>I am Fate, the leader of REFORM UK, running to lead our great nation into a new era...</p>
+                <a href="#economy" class="btn btn-secondary">Our Vision</a>
+            </div>
+        </section>
+
+        <!-- Economy Section -->
+        <section id="economy" class="section economy">
+            <div class="container">
+                <h2>A Strong and Resilient Economy</h2>
+                <p>Our economic reforms will ensure that businesses can thrive, jobs are created, and the working class is supported...</p>
+                <div class="features">
+                    <div class="feature-box">
+                        <h3>Lower Taxes</h3>
+                        <p>We will reduce the tax burden on hardworking families...</p>
+                    </div>
+                    <div class="feature-box">
+                        <h3>Support for Small Businesses</h3>
+                        <p>Small businesses are the backbone of our economy...</p>
+                    </div>
+                    <div class="feature-box">
+                        <h3>Global Trade & Innovation</h3>
+                        <p>We’ll position the UK as a hub of global commerce...</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Public Services Section -->
+        <section id="public-services" class="section public-services">
+            <div class="container">
+                <h2>World-Class Public Services</h2>
+                <p>We believe every citizen deserves access to high-quality education, healthcare, and housing...</p>
+                <div class="features">
+                    <div class="feature-box">
+                        <h3>Modernized NHS</h3>
+                        <p>We will invest in digital healthcare technologies...</p>
+                    </div>
+                    <div class="feature-box">
+                        <h3>Education for the Future</h3>
+                        <p>Our education system will be overhauled...</p>
+                    </div>
+                    <div class="feature-box">
+                        <h3>Affordable Housing</h3>
+                        <p>Our housing policy will prioritize affordable housing...</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- National Security Section -->
+        <section id="security" class="section security">
+            <div class="container">
+                <h2>Securing Our Borders</h2>
+                <p>We will ensure that our borders are secure and that we have a well-resourced defense system...</p>
+            </div>
+        </section>
+
+        <!-- Environment Section -->
+        <section id="environment" class="section environment">
+            <div class="container">
+                <h2>The Environment: A Green and Sustainable Future</h2>
+                <p>Our party is committed to reducing our carbon footprint...</p>
+            </div>
+        </section>
+
+        <!-- Get Involved Section -->
+        <section id="get-involved" class="section get-involved">
+            <div class="container">
+                <h2>How to Get Involved</h2>
+                <p>Help us make a difference! Volunteer, donate, or register to vote today!</p>
+                <a href="#" class="btn btn-primary">Donate</a>
+                <a href="#" class="btn btn-secondary">Register to Vote</a>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="container">
+                <p>&copy; 2024 Fate for Prime Minister | All Rights Reserved</p>
+            </div>
+        </footer>
+    </div>
+
+</body>
+</html>
